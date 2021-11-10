@@ -10,9 +10,7 @@ const AboutPage = () => {
             <Layout>
                 <Link to="/">Voltar para Home</Link>
                 <p>
-                    Olá, eu sou Edson Carlos, estou estudando Gatsby. Atualmente faço parte do Squad WhiteLabel.
-                    No desafio passado, cadastrei o Alexandre numa API e em apelido coloquei Ale e ele se
-                    "amarrou"!
+                    Olá, eu sou Edson Carlos, estou estudando Gatsby.
                 </p>
             </Layout>
         </main>
