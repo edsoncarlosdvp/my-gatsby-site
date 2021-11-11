@@ -23,8 +23,15 @@ const Layout = ({ pageTitle, children }) => {
             <hearder className={siteTitle}>{data.site.siteMetadata.title}</hearder>
             <nav>
                 <ul className={navLinks}>
-                    <li className={navLinks}><Link to="/">Home</Link></li>
-                    <li className={navLinks}><Link to="/about">About</Link></li>
+                    <li className={navLinkItem}>
+                        <Link to="/">Home</Link>
+                    </li>
+                    <li className={navLinkItem}>
+                        <Link to="/about">About</Link>
+                    </li>
+                    <li className={navLinkItem}>
+                        <Link to="/blog">Blog</Link>
+                    </li>
                 </ul>
             </nav>
             <main>
