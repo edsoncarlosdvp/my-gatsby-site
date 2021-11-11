@@ -1,0 +1,54 @@
+Arguments: 
+  C:\Program Files\nodejs\node.exe C:\Users\amigo\AppData\Roaming\npm\node_modules\yarn\bin\yarn.js add gatsby-plugin-mdx-frontmatter
+
+PATH: 
+  C:\Program Files\Common Files\Oracle\Java\javapath;C:\Windows\system32;C:\Windows;C:\Windows\System32\Wbem;C:\Windows\System32\WindowsPowerShell\v1.0\;C:\Windows\System32\OpenSSH\;C:\Program Files\nodejs\;C:\Program Files\Git\cmd;C:\Program Files\dotnet\;C:\Program Files (x86)\Intel\Intel(R) Management Engine Components\DAL;C:\Program Files\Intel\Intel(R) Management Engine Components\DAL;C:\Program Files\MySQL\MySQL Shell 8.0\bin\;C:\Users\amigo\AppData\Local\Microsoft\WindowsApps;;C:\Users\amigo\AppData\Local\Programs\Microsoft VS Code\bin;C:\Users\amigo\AppData\Roaming\npm;C:\Users\amigo\.dotnet\tools
+
+Yarn version: 
+  1.22.10
+
+Node version: 
+  14.16.1
+
+Platform: 
+  win32 x64
+
+Trace: 
+  Error: EPERM: operation not permitted, copyfile 'C:\Users\amigo\AppData\Local\Yarn\Cache\v6\npm-gatsby-plugin-image-2.1.2-0e9c499b6cc6f2221375a0ef0a99e3558adf0850-integrity\node_modules\gatsby-plugin-image\gatsby-browser.js' -> 'C:\Projects\Gatsby\my-gatsby-site\node_modules\gatsby-plugin-image\gatsby-browser.js'
+
+npm manifest: 
+  {
+    "name": "my-gatsby-site",
+    "version": "1.0.0",
+    "private": true,
+    "description": "My Gatsby Site",
+    "author": "edsoncarlosdvp",
+    "keywords": [
+      "gatsby"
+    ],
+    "scripts": {
+      "develop": "gatsby develop",
+      "start": "gatsby develop",
+      "build": "gatsby build",
+      "serve": "gatsby serve",
+      "clean": "gatsby clean"
+    },
+    "dependencies": {
+      "babel-plugin-styled-components": "^1.13.3",
+      "gatsby": "^4.1.1",
+      "gatsby-plugin-image": "^2.1.0",
+      "gatsby-plugin-sharp": "^4.1.1",
+      "gatsby-plugin-styled-components": "^5.1.0",
+      "gatsby-source-filesystem": "^4.1.0",
+      "gatsby-transformer-sharp": "^4.1.0",
+      "react": "^17.0.1",
+      "react-dom": "^17.0.1",
+      "styled-components": "^5.3.3"
+    }
+  }
+
+yarn manifest: 
+  No manifest
+
+Lockfile: 
+  No lockfile
