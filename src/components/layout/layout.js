@@ -4,6 +4,7 @@ import {
     container,
     heading,
     navLinks,
+    navLinkItem,
     siteTitle
 } from './layout.module.css'
 
