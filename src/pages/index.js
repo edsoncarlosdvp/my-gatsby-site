@@ -11,7 +11,7 @@ const IndexPage = () => {
     <main>
       <Layout pageTitle="Home Page">
         <Link to="/about">Sobre</Link>
-        <p>I'm making this by following the Gatsby Tutorial.</p>
+        <p>Olá! Estou seguindo o tutorial do Gatsby Tutorial.</p>
         <MyComponent />
         <StaticImage
           alt="Clifford, a reddish-brown pitbull, posing on a couch and looking stoically at the camera"
